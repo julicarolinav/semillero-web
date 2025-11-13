@@ -14,7 +14,12 @@ body {
 /* HERO SECTION */
 .hero {
     margin-top: 70px;
-    background: linear-gradient(135deg, #0066cc 0%, #004a99 50%, #003366 100%);
+    /* CAMBIOS AQUÍ: Nuevo gradiente más grande y con más colores */
+    background: linear-gradient(125deg, #003366, #0066cc, #004a99, #4dd0e1);
+    background-size: 400% 400%;
+    animation: animatedGradient 15s ease infinite;
+    /* FIN DE CAMBIOS */
+
     color: white;
     padding: 100px 2rem;
     text-align: center;
@@ -399,4 +404,15 @@ footer p {
     color: #666;
     font-size: 0.9rem;
     word-break: break-all;
+}
+@keyframes animatedGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
