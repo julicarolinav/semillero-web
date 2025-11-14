@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semillero de Investigación</title>
+    <title>GIRSI - Grupo de Investigación</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bubbles.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- HEADER -->
     <header>
         <nav>
-            <div class="logo">🔬 Semillero</div>
+            <div class="logo">🔬 GIRSI</div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#temas">Temas</a></li>
@@ -24,8 +25,11 @@
 
     <!-- HERO SECTION -->
     <section class="hero" id="inicio">
+        <!-- CONTENEDOR DE BURBUJAS -->
+        <div class="bubbles-container"></div>
+        
         <div class="hero-content">
-            <h1>Semillero de Investigación</h1>
+            <h1>GIRSI</h1>
             <p>Cultivando el futuro de la investigación académica y científica</p>
             <div class="hero-buttons">
                 <button class="btn btn-primary" onclick="scrollToSection('temas')">Conoce Nuestros Temas</button>
@@ -36,7 +40,7 @@
 
     <!-- CARACTERÍSTICAS -->
     <section class="features">
-        <h2 class="section-title">¿Por qué unirse al Semillero?</h2>
+        <h2 class="section-title">¿Por qué unirse a GIRSI?</h2>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">📚</div>
@@ -89,14 +93,14 @@
 
     <!-- CTA SECTION -->
     <section class="cta-section" id="contacto">
-        <h2>¿Interesado en el Semillero?</h2>
+        <h2>¿Interesado en GIRSI?</h2>
         <p>Únete a nuestra comunidad de investigadores apasionados y expande tus horizontes académicos</p>
         <button class="btn btn-primary" onclick="enviarSolicitud()">Envía tu Solicitud</button>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2024 Semillero de Investigación - Universidad</p>
+        <p>&copy; 2024 GIRSI - Grupo de Investigación</p>
         <p>Fomentando la excelencia académica y la investigación</p>
         <div class="footer-links">
             <a href="#inicio">Inicio</a>
@@ -107,6 +111,7 @@
     </footer>
 
     <!-- Scripts -->
+    <script src="js/bubbles.js"></script>
     <script src="js/api.js"></script>
     <script src="js/ui.js"></script>
     <script src="js/main.js"></script>

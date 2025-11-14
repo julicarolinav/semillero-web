@@ -100,30 +100,26 @@ function cargarEquipoEnUI() {
     const equipo = [
         {
             id: 1,
-            nombre: "Juliana Vasquez ",
-            rol: "Coordinador del Semillero",
-            email: "juan.perez@universidad.edu",
+            nombre: "Lucas Romero ",
+            email: "lucasromero@uninorte.edu.co",
             icono: "👨‍🏫"
         },
         {
             id: 2,
-            nombre: "no ",
-            rol: "Investigadora Principal",
-            email: "maria.gonzalez@universidad.edu",
+            nombre: "Juliana Vásquez ",
+            email: "julianacv@uninorte.edu.co",
             icono: "👩‍🔬"
         },
         {
             id: 3,
-            nombre: "justo ayer no usamos nombres",
-            rol: "Investigador en IA",
-            email: "carlos.lopez@universidad.edu",
+            nombre: "Juan David Bermejo",
+            email: "juandavid@uninorte.edu.co",
             icono: "👨‍💻"
         },
         {
             id: 4,
-            nombre: "floja",
-            rol: "Investigadora en Sostenibilidad",
-            email: "laura.rodriguez@universidad.edu",
+            nombre: "Mariana Barrero",
+            email: "mmbarrero@uninorte.edu.co",
             icono: "👩‍🔧"
         }
     ];
@@ -137,7 +133,6 @@ function cargarEquipoEnUI() {
             <div class="miembro-avatar">${miembro.icono}</div>
             <div class="miembro-info">
                 <h3>${miembro.nombre}</h3>
-                <p class="rol">${miembro.rol}</p>
                 <p class="email">📧 ${miembro.email}</p>
             </div>
         `;
